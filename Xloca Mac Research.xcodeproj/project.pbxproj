@@ -11,7 +11,11 @@
 		B28D73C92CCC99B200AF5AA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28D73C82CCC99B200AF5AA4 /* ContentView.swift */; };
 		B28D73CB2CCC99BD00AF5AA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B28D73CA2CCC99BD00AF5AA4 /* Assets.xcassets */; };
 		B28D73CF2CCC99BD00AF5AA4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B28D73CE2CCC99BD00AF5AA4 /* Preview Assets.xcassets */; };
-		B28D73D62CCC9A4A00AF5AA4 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = B28D73D52CCC9A4A00AF5AA4 /* Localizable.xcstrings */; };
+		B28D73D82CCCA22D00AF5AA4 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = B28D73D72CCCA22D00AF5AA4 /* Localizable.xcstrings */; };
+		B28D73DA2CCCA48F00AF5AA4 /* ArticleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28D73D92CCCA48F00AF5AA4 /* ArticleDetailView.swift */; };
+		B28D73DC2CCCA4AB00AF5AA4 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28D73DB2CCCA4AB00AF5AA4 /* SearchBar.swift */; };
+		B28D73DE2CCCA54000AF5AA4 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28D73DD2CCCA54000AF5AA4 /* Article.swift */; };
+		B28D73E02CCCAA1300AF5AA4 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28D73DF2CCCAA1300AF5AA4 /* Comment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +25,11 @@
 		B28D73CA2CCC99BD00AF5AA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B28D73CC2CCC99BD00AF5AA4 /* Xloca_Mac_Research.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Xloca_Mac_Research.entitlements; sourceTree = "<group>"; };
 		B28D73CE2CCC99BD00AF5AA4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B28D73D52CCC9A4A00AF5AA4 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		B28D73D72CCCA22D00AF5AA4 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		B28D73D92CCCA48F00AF5AA4 /* ArticleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailView.swift; sourceTree = "<group>"; };
+		B28D73DB2CCCA4AB00AF5AA4 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		B28D73DD2CCCA54000AF5AA4 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		B28D73DF2CCCAA1300AF5AA4 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +46,11 @@
 		B28D73BA2CCC99B100AF5AA4 = {
 			isa = PBXGroup;
 			children = (
-				B28D73D52CCC9A4A00AF5AA4 /* Localizable.xcstrings */,
+				B28D73DF2CCCAA1300AF5AA4 /* Comment.swift */,
+				B28D73DD2CCCA54000AF5AA4 /* Article.swift */,
+				B28D73DB2CCCA4AB00AF5AA4 /* SearchBar.swift */,
+				B28D73D92CCCA48F00AF5AA4 /* ArticleDetailView.swift */,
+				B28D73D72CCCA22D00AF5AA4 /* Localizable.xcstrings */,
 				B28D73C52CCC99B200AF5AA4 /* Xloca Mac Research */,
 				B28D73C42CCC99B200AF5AA4 /* Products */,
 			);
@@ -121,6 +133,8 @@
 				ko,
 				it,
 				es,
+				ar,
+				"zh-Hant",
 			);
 			mainGroup = B28D73BA2CCC99B100AF5AA4;
 			productRefGroup = B28D73C42CCC99B200AF5AA4 /* Products */;
@@ -139,7 +153,7 @@
 			files = (
 				B28D73CF2CCC99BD00AF5AA4 /* Preview Assets.xcassets in Resources */,
 				B28D73CB2CCC99BD00AF5AA4 /* Assets.xcassets in Resources */,
-				B28D73D62CCC9A4A00AF5AA4 /* Localizable.xcstrings in Resources */,
+				B28D73D82CCCA22D00AF5AA4 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,8 +164,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B28D73DA2CCCA48F00AF5AA4 /* ArticleDetailView.swift in Sources */,
+				B28D73E02CCCAA1300AF5AA4 /* Comment.swift in Sources */,
+				B28D73DC2CCCA4AB00AF5AA4 /* SearchBar.swift in Sources */,
 				B28D73C92CCC99B200AF5AA4 /* ContentView.swift in Sources */,
 				B28D73C72CCC99B200AF5AA4 /* Xloca_Mac_ResearchApp.swift in Sources */,
+				B28D73DE2CCCA54000AF5AA4 /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
