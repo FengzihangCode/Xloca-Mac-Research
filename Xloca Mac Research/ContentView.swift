@@ -26,6 +26,11 @@ struct ContentView: View {
                 .pickerStyle(SegmentedPickerStyle())
                 .padding()
 
+                // 文章计数
+                Text(String(format: NSLocalizedString("Article.Count", comment: ""), filteredArticles.count))
+                    .font(.subheadline)
+                    .padding(.horizontal)
+
                 List {
                     ForEach(filteredArticles) { article in
                         NavigationLink(destination: ArticleDetailView(article: article)) {
@@ -48,7 +53,7 @@ struct ContentView: View {
             }
             .navigationTitle(NSLocalizedString("Article.List.Title", comment: ""))
             .onAppear {
-                articles = Article.sampleData()
+                articles = Article.sampleData() // 初始化数据
             }
         }
     }
