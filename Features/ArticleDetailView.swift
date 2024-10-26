@@ -18,11 +18,11 @@ struct ArticleDetailView: View {
             Text(article.content)
                 .padding()
 
-            TextField("Add a comment...", text: $newComment)
+            TextField("Article.Comment.Add", text: $newComment)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
                 .padding()
             
-            Button("Submit") {
+            Button("Article.Comment.Submit") {
                 let comment = Comment(content: newComment, language: article.language)
                 comments.append(comment)
                 newComment = ""

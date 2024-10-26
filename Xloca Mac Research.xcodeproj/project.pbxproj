@@ -46,11 +46,8 @@
 		B28D73BA2CCC99B100AF5AA4 = {
 			isa = PBXGroup;
 			children = (
-				B28D73DF2CCCAA1300AF5AA4 /* Comment.swift */,
-				B28D73DD2CCCA54000AF5AA4 /* Article.swift */,
-				B28D73DB2CCCA4AB00AF5AA4 /* SearchBar.swift */,
-				B28D73D92CCCA48F00AF5AA4 /* ArticleDetailView.swift */,
 				B28D73D72CCCA22D00AF5AA4 /* Localizable.xcstrings */,
+				B28D73E12CCCB9CE00AF5AA4 /* Features */,
 				B28D73C52CCC99B200AF5AA4 /* Xloca Mac Research */,
 				B28D73C42CCC99B200AF5AA4 /* Products */,
 			);
@@ -82,6 +79,17 @@
 				B28D73CE2CCC99BD00AF5AA4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B28D73E12CCCB9CE00AF5AA4 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				B28D73DF2CCCAA1300AF5AA4 /* Comment.swift */,
+				B28D73DB2CCCA4AB00AF5AA4 /* SearchBar.swift */,
+				B28D73DD2CCCA54000AF5AA4 /* Article.swift */,
+				B28D73D92CCCA48F00AF5AA4 /* ArticleDetailView.swift */,
+			);
+			path = Features;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
